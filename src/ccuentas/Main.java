@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         operativa_cuenta(0);
     }
-
+  //este es un comentario de prueba para ejecutar para probar un commit
 	public static void operativa_cuenta(float cantidad) {
 		CCuenta cuenta1;
         double saldoActual;
