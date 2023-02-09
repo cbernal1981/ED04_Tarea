@@ -1,10 +1,24 @@
 package ccuentas;
+//neo eres un manta
+/**
+ * Clase principal que contiene el método main y el método operativa_cuenta.
+ *
+ * @author Cristian Bernal
+ */
 public class Main {
-
+	/**
+     * Método main que invoca al método operativa_cuenta.
+     *
+     * @param args Argumentos del programa.
+     */
     public static void main(String[] args) {
         operativa_cuenta(0);
     }
-  //este es un comentario de prueba para ejecutar para probar un commit
+    /**
+     * Método que realiza una serie de operaciones sobre una cuenta bancaria.
+     *
+     * @param cantidad Cantidad que se desea operar en la cuenta.
+     */
 	public static void operativa_cuenta(float cantidad) {
 		CCuenta cuenta1;
         double saldoActual;
